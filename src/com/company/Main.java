@@ -3,18 +3,13 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        // calculates the average
-        // whether the members of an array is in incrementing progression
-        boolean result = true;
-        final int[] VALUES = {-3, 2, 5, 6, 7};
-        int n = 1;
-        while (n < 5) {
-            if (VALUES[n] < VALUES[n-1]) {
-                result = false;
-                break;
-            }
-            n++;
+        int[] original = {5, 4, -7, -2, -1};
+        int[] reversed = new int[original.length];
+        for (int n = 0; n < reversed.length; n++) {
+            reversed[reversed.length-n - 1] = original[n];
         }
-        System.out.println(result);
+        for (int v : reversed) {
+            System.out.print(v + " ");
+        }
     }
 }

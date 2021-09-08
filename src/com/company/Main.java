@@ -3,12 +3,14 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        int[] original = {5, 4, -7, -2, -1};
-        int[] reversed = new int[original.length];
-        for (int n = 0; n < reversed.length; n++) {
-            reversed[reversed.length-n - 1] = original[n];
+        int[] original = {-3, 2, 6, -11};
+        int[] cumulative_sum = new int[original.length];
+        int sum = 0;
+        for (int i = 0; i < original.length; i++) {
+            sum += original[i];
+            cumulative_sum[i] = sum;
         }
-        for (int v : reversed) {
+        for (int v : cumulative_sum) {
             System.out.print(v + " ");
         }
     }

@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        PrimeFind cap = new PrimeFind(70);
+        PrimeFind cap = new PrimeFind(Integer.parseInt(args[0]));
         System.out.println(cap.controller());
     }
 }

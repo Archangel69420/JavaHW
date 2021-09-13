@@ -3,8 +3,14 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+        if (args.length == 0 || Integer.parseInt(args[0]) < 2) {
+            System.out.println("Enter command line arguements greater or equal than 2");
+            System.exit(0);
+        }
         PrimeFind cap = new PrimeFind(Integer.parseInt(args[0]));
-        System.out.println(cap.controller());
+        String somehowyouwanttheprogramtostorethisso = cap.controller();
+        System.out.println("The prime numbers smaller than " +
+                args[0] + " are: " + somehowyouwanttheprogramtostorethisso);
     }
 }
 

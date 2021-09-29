@@ -7,5 +7,18 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../ibio" />
+          <root url="file://$MODULE_DIR$/../ibio" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.." />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../ibio" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>

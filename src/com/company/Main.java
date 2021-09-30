@@ -1,16 +1,16 @@
 package com.company;
 import static ibio.Helpers.*;
-/* public class Main {
+ public class Main {
     public static void main(String[] args) {
         for (int k = 0; k <= 10; k++) {
             double a = k * Math.PI / 5;
             System.out.print(a + ", ");
             System.out.print(Math.sin(a) + ", ");
-            System.out.print(Math.cos(k * Math.PI / 5));
+            System.out.print(Math.cos(a));
             System.out.print("\n");
         }
     }
-} */
+}
 
 /* public class Main {
     public static void main(String[] args) {
@@ -40,7 +40,7 @@ import static ibio.Helpers.*;
 
 /* public class Main {
     public static void main(String[] args) {
-        if (args.length < 1) {
+        if (args.length < 2) {
             System.out.println("Not enough arguements detected");
             System.exit(1);
         }

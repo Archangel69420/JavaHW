@@ -18,6 +18,18 @@
           <root url="file://$MODULE_DIR$/.." />
         </SOURCES>
         <jarDirectory url="file://$MODULE_DIR$/../ibio" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../ibio" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../ibadts" />
+          <root url="file://$MODULE_DIR$/../ibadts" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../ibadts" recursive="false" />
       </library>
     </orderEntry>
   </component>
